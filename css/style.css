@@ -1,0 +1,422 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+body{
+    width:1200px;
+    margin-left:200px;
+}
+h2{
+    font-family: 'Caveat', cursive;
+}
+
+/* nav    */
+nav{
+    font-size: 21px;
+    color:black
+}
+nav img{
+    float:left;
+    
+}
+.header-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    margin:50px 0;
+    
+}
+nav ul{
+   display: flex;
+   text-align:center;
+}
+
+nav li{
+    display: inline;
+    padding:50px 25px 50px 25px;    
+    font-size:21px;
+ 
+}
+
+nav li:hover{
+    background-color: #99ffff;
+}
+
+
+nav a{
+    text-decoration:none;
+    color:black;
+    transition: color 0.3s;
+   
+}
+
+
+nav a:hover{
+    color:blue;
+}
+
+/* title */
+
+.title{
+
+    background-image:url(../img/mainbg.png);
+    padding:200px 0px;
+    color:white;
+    text-align: center;
+}
+.title h1{
+font-size: 50px;
+margin: 0 0 30px;
+font-weight: bold;
+
+}
+.title h2{
+    font-size: 40px;
+    
+}
+
+.overview{
+    text-align: center;
+    padding: 60px 0px ;
+    font-family: serif;
+}
+.overview-tittle h2{
+    font-size: 24px;
+    color:#ffd61a;
+    padding-bottom: 30px;
+    font-family: 'Caveat', cursive;
+}
+.overview-tittle p{
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+.overview_message{
+    font-size: 16px;
+    line-height: 34px;
+}
+.overview_message_one{
+    margin: 0 0 40px;
+}
+.overview_message_two{
+    margin: 0 0 40px;
+}
+.overview_message_three{
+    margin: 0 0 40px;
+}
+
+.overview_message_four{
+    margin:0 0 80px;
+}
+
+.overview_img{
+    
+    display:flex;
+}
+
+/* course */
+
+.course_wrapper{
+    width:1200px;
+    padding-bottom:60px;
+}
+.course{
+    text-align: center;
+}
+
+.course h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin:0 0 30px;
+
+}
+
+.course p{
+    margin:0 0 60px;
+    font: size 18px;;
+    line-height: 23px;
+}
+
+.course_a{
+    display:flex;
+    width:1200px;
+}
+
+.course_a_img{
+   
+   width:50%;
+   
+}
+
+
+.course_a_exp{
+    padding:120px 0px 120px 50px ;
+    width:50%;    
+}
+
+.course_a_exp h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin:0 0 40px;
+}
+
+.course_a_exp p{
+    font-size: 16px;
+    line-height: 24px;
+   
+}
+
+.course_b{
+   display: flex;
+   width:1200px;
+
+}
+
+.course_b_exp{
+    width:50%;
+    padding:120px 50px 120px 100px ;
+    
+}
+
+.course_b_exp h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin:0 0 40px;
+}
+
+.course_b_exp p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.course_b_img{
+    width:50%;
+}
+
+.course_c{
+    display:flex;
+}
+.course_c_exp{
+    padding:120px 0px 120px 50px ;
+    width:50%;  
+}
+
+.course_c_exp h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin:0 0 40px;
+}
+.course_c_exp p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* news */
+
+.news_wrapper{
+    width:1200px;
+    padding-bottom: 60px;
+    
+}
+
+.news_title{
+    text-align: center;
+}
+.news_title h2{
+    font-size: 24px;
+    font-weight: bold;
+   color:yellow;
+    margin:0 0 30px;
+}
+
+.news_title p{
+    margin:0 0 60px;
+}
+
+/*  autoだと効かないけど100pxだと効くのはなぜ？  */
+.news_exp{
+      display:flex;
+      width:1200px;
+      margin:0 100px;
+
+}
+.news_exp p{
+    
+}
+
+.news_a{
+    width:300px;
+    font-size:14px;
+    line-height: 20px;
+}
+.news_b{
+    width:300px;
+   padding:0 30px;
+   font-size:14px;
+    line-height: 20px;
+}
+.news_c{
+    width:300px;
+    font-size:14px;
+    line-height: 20px;
+}
+.news_date{
+    
+    font-style: italic;
+}
+
+.news_more {
+    text-align: center;
+    margin: 60px 0 0 ;
+      
+}
+.news_more input{
+    background-color: #ffd61a;
+    color:white;
+    font-size:18px;
+    width:300px;
+    height:60px;
+    font-size: 18px;
+    box-shadow: 3px 3px 0 grey;
+    text-decoration:none;
+    border-radius:4px;
+    border:none;
+    
+
+}
+.button:active{
+  
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+
+}
+
+
+/* access */
+.access_wrapper{
+    margin: 60px 0;
+    text-align: center;
+}
+.access_title h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin:0 0 30px;
+}
+.access_title p{
+    margin:0 0 60px;
+}
+.access_title iframe{
+    margin:0 0 60px;
+}
+
+.access_inf {
+    display:flex;
+    padding-bottom: 30px;
+
+    
+}
+
+/* dtのみを右にずらしたい。dtにpaddingやmarginをかけるとddまでずれてしまう */
+.access_inf dt{
+   width:50%;
+   text-align:left;
+
+}
+
+.access_inf dd{
+   width:50%;
+   text-align:left;
+}
+
+/* contact */
+
+.contact_wrapper{
+    text-align: center;
+}
+
+.contact_wrapper h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin:0 0 30px;
+}
+.contact_wrapper p{
+    margin:0 0 60px;
+
+}
+
+.contact_exp_a{
+    margin:0 0 30px;
+    line-height: 30px;
+}
+
+.contact_exp_b{
+    margin:0 0 70px;
+    line-height:30px;
+}
+
+form{
+    text-align: center;
+}
+
+.contact_qa{
+    display:flex;
+    border: solid 0.3px;
+    border-right: none;
+    border-left:none;
+}
+
+
+
+.reason_list{
+    display:block;
+    
+}
+
+.contact_qa dt{
+    text-align:left;
+    padding-right:64px;
+    width:30%;
+    margin:8px 0 8px 250px ;
+}
+.contact_qa dd{
+    width:70%;
+    
+    text-align:left;
+    border-left:solid 0.3px;
+    padding:8px 0px 8px 8px;
+}
+
+.submit{
+    margin:30px 0 140px;
+}
+
+.submit input{
+    color:white;
+    background-color: #ffd61a;
+    width:300px;
+    height:60px;
+    border:none;
+    border-radius: 7px;
+    box-shadow: 3px 3px 0 grey;
+}
+
+.button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.button:active{
+    box-shadow: none;
+}
+
+/* foote */
+footer{
+    text-align: center;
+  
+    background-color:  #707070;
+    color:white;
+}
+
+.foot{
+    padding:30px 0;
+}
